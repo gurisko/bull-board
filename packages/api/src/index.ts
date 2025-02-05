@@ -5,6 +5,9 @@ import { BaseAdapter } from './queueAdapters/base';
 import { getQueuesApi } from './queuesApi';
 import { appRoutes } from './routes';
 
+export { BaseAdapter } from './queueAdapters/base';
+export * from '../typings/app';
+
 export function createBullBoard({
   queues,
   serverAdapter,
